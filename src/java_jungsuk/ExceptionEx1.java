@@ -1,4 +1,4 @@
-package java.jungsuk;
+package java_jungsuk;
 
 public class ExceptionEx1 {
 	public static void main(String[] args)
@@ -15,4 +15,5 @@ public class ExceptionEx1 {
 			
 		}
 	}
+
 }
