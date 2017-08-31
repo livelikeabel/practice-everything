@@ -1,4 +1,4 @@
-package java_jungsuk;
+package java_jungsuk.exception;
 
 public class ExceptionEx9 {
 

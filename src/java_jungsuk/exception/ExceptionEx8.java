@@ -1,6 +1,6 @@
-package java_jungsuk;
+package java_jungsuk.exception;
 
-public class ExceptionEx5 {
+public class ExceptionEx8 {
 
 	public static void main(String[] args) {
 		System.out.println(1);
@@ -9,10 +9,10 @@ public class ExceptionEx5 {
 			System.out.println(3);
 			System.out.println(0/0);
 			System.out.println(4);
-		} catch (Exception e) {
-			System.out.println(5);
+		} catch (ArithmeticException ae) {
+			ae.printStackTrace();
+			System.out.println("예외메세지 : " + ae.getMessage());
 		}
 		System.out.println(6);
 	}
-
 }
